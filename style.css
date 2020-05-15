@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+#calContener{
+    width: 500px;
+    height: auto;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 0.5px solid #ddd ;
+    padding: 10px;
+}
+#selectCon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#selectCon *{
+    width: 90px;
+    margin: 10px 20px 0px 0px;
+    padding: 10px;
+}
+h1{
+    background-color: #ddd;
+}
+button{
+    margin: 10px auto;
+}
+    
+#inputNum{
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+
+}
